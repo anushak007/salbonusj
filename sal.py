@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.arg) < 2:
+if len(sys.argv) == 2:
   sal = int(sys.argv[1])
   print("user input provided")
 else:
