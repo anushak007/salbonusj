@@ -1,5 +1,11 @@
 import sys
-sal = int(sys.argv[1])
+
+if len(sys.arg) < 2:
+  sal = int(sys.argv[1])
+  print("user input provided")
+else:
+  sal = 50000
+  
 bonus = sal + (sal * 10 / 100)
 
 print("The salary is:", sal)
